@@ -1,5 +1,8 @@
 ## VIRTUALIZATION IN LINUX
 #### Install Virtualbox In Xubuntu
+##### Prasyarat 
+- laptop Sudah Terinstall Linux
+  
 1. Automatis
    ```
    git clone https://github.com/projek2/virtualization-in-linux
@@ -12,6 +15,15 @@
    bash installvm-xubuntu.sh
    ```
 ket : 
+- Jika Cara di atas gagal instalasi atau ada error saat instal virtualbox
+
+```
+sudo dpkg -a configure
+atau
+sudo apt --fix-broken install
+atau
+sudo apt -f install
+``` 
    
 2. Manual
    ```

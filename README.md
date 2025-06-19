@@ -19,5 +19,7 @@ contoh format gambar
 
 ![Teks alternatif](https://i.imgur.com/HgeQmvN.jpeg)
 
+![Teks alternatif](https://i.imgur.com/MRK1DFt.jpeg)
+
 
    

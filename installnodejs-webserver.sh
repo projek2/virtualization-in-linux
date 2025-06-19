@@ -1,7 +1,8 @@
+# Install NodeJs
 apk update && apk upgrade --no-cache -y
 
 apk add figlet nodejs git wget --no-cache -y
-
+# Membuat Program Js Otomatis
 figlet -c Contoh Nodejs Console
 
 echo "console.log('hello-world');">>hello-world.js

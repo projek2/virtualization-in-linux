@@ -4,16 +4,16 @@
 - laptop Sudah Terinstall Linux
   
 1. Automatis
-   ```
-   git clone https://github.com/projek2/virtualization-in-linux
-   cd virtualization-in-linux
-   bash installvm-xubuntu.sh
+```
+git clone https://github.com/projek2/virtualization-in-linux
+cd virtualization-in-linux
+bash installvm-xubuntu.sh
 
-   atau
+atau
 
-   wget https://raw.githubusercontent.com/projek2/virtualization-in-linux/refs/heads/master/installvm-xubuntu.sh
-   bash installvm-xubuntu.sh
-   ```   
+wget https://raw.githubusercontent.com/projek2/virtualization-in-linux/refs/heads/master/installvm-xubuntu.sh
+bash installvm-xubuntu.sh
+```   
 2. Manual
 ```
 sudo apt update && apt upgrade -y

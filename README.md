@@ -46,7 +46,39 @@ sudo apt -f install
 
 
 #### Install NodeJs Di Alpine Linux VM
+1. Automatis
+```
+git clone https://github.com/projek2/virtualization-in-linux
+cd virtualization-in-linux
+bash installnodejs-webserver.sh
 
+atau
+
+wget https://raw.githubusercontent.com/projek2/virtualization-in-linux/refs/heads/master/installnodejs-webserver.sh
+bash installnodejs-webserver.sh
+```
+2. Manual
+```
+apk update && apk upgrade --no-cache -y
+
+apk add nodejs git wget --no-cache -y
+
+echo "console.log('hello-world');">>hello-world.js
+
+node hello-world.js
+
+echo -e "var http = require ('http'); \n \
+ var server = http.createServer(function (req, res) { \n \
+ res.end('Hi, Selamat Datang Di NodeJs'); \n \
+ }); \n \
+ server.listen(3000); \n \
+ console.log('server running on http://localhost:3000');" >>server.js
+
+node server.js
+
+```
+Ket : 
+- Script di atas dijalankan di dalam Alpine VM
 
 
 contoh format gambar

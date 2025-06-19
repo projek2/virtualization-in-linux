@@ -39,7 +39,9 @@ sudo apt -f install
 #### Install Alpine Linux Di VM
 
 
+![Teks alternatif](https://i.imgur.com/HgeQmvN.jpeg)
 
+![Teks alternatif](https://i.imgur.com/MRK1DFt.jpeg)
 
 
 
@@ -80,12 +82,7 @@ node server.js
 Ket : 
 - Script di atas dijalankan di dalam Alpine VM
 
-
-contoh format gambar
-
-![Teks alternatif](https://i.imgur.com/HgeQmvN.jpeg)
-
-![Teks alternatif](https://i.imgur.com/MRK1DFt.jpeg)
+#### Install NAS (Network Attachead Storage)
 
 
    

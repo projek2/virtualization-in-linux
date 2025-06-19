@@ -13,7 +13,19 @@
 
    wget https://raw.githubusercontent.com/projek2/virtualization-in-linux/refs/heads/master/installvm-xubuntu.sh
    bash installvm-xubuntu.sh
-   ```
+   ```   
+2. Manual
+```
+sudo apt update && apt upgrade -y
+
+sudo apt install git wget curl -y
+
+wget https://download.virtualbox.org/virtualbox/7.1.8/virtualbox-7.1_7.1.8-168469~Ubuntu~jammy_amd64.deb
+
+sudo chmod +x virtualbox-7.1_7.1.8-168469~Ubuntu~jammy_amd64.deb
+
+sudo dpkg -i virtualbox-7.1_7.1.8-168469~Ubuntu~jammy_amd64.deb
+```
 ket : 
 - Jika Cara di atas gagal instalasi atau ada error saat instal virtualbox
 
@@ -23,10 +35,20 @@ atau
 sudo apt --fix-broken install
 atau
 sudo apt -f install
-``` 
-   
-2. Manual
-   ```
+```
+#### Install Alpine Linux Di VM
+
+
+
+
+
+
+
+
+#### Install NodeJs Di Alpine Linux VM
+
+
+
 contoh format gambar
 
 ![Teks alternatif](https://i.imgur.com/HgeQmvN.jpeg)

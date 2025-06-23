@@ -39,9 +39,9 @@ sudo apt -f install
 #### Install Alpine Linux Di VM
 
 
-![Teks alternatif](https://i.imgur.com/HgeQmvN.jpeg)
+![Teks alternatif]()
 
-![Teks alternatif](https://i.imgur.com/MRK1DFt.jpeg)
+![Teks alternatif]()
 
 
 
